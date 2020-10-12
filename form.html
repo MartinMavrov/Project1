@@ -1,0 +1,124 @@
+
+  
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+   
+        <title>
+           Project1
+        </title>
+        <link href="/css/form.css" rel="stylesheet">
+
+        </head>
+        <body>
+            <header>
+                <nav>
+                <ul>
+            
+               <li>   <a href="page1.html" class="link">Introduction</a>   </li>
+               <li> <a href="page2.html">About me</a> </li>
+            
+            </ul>
+            </nav>
+            </header>
+            <form action="form.html" method="GET">
+
+            <fieldset class="one">
+
+       <legend class="two"><h2>Personal Information</h2></legend> 
+
+   <div class="wrap">
+          <p> <label for="firstname" >First Name*:</label>
+        <input id="firstname" name="name" type="text" placeholder="Your first name" required></p> 
+            
+        <p><label for="lastname">Last Name*:</label>
+        <input id="lastname" name="name" type="text" placeholder="Your last name" required></p>
+
+        <p><label for="email">Email*:</label>
+        <input  type="email" name="email" id="email" placeholder="Your email address" required></p>
+    </div>
+        
+
+            
+                  <div>
+                   <p> <label for="socialstatus">Status:</label>
+                    
+                    <select name="Status"  required class="five">
+
+                    <option value="">Select</option>
+
+                    <option value="Single">Single</option>
+
+                    <option value="Married">Married</option>
+
+                    <option value="Divorced">Divorced</option>
+
+                    <option value="Widowed">Widowed</option>
+
+                    </select>
+                    </p>
+                  </div>
+                    
+
+                    
+
+
+                  <div >
+                      <p>
+                       <h3><label for="Degree" >Education: </label></h3>
+                      </div>
+                      
+                  <div class="six"> <input type="radio"  name="Education" value="master/phd"  />Master/PHD
+                    
+                   <input type="radio" name="Education" value="Bachelor"/>Bachelor
+                   
+                   <input  type="radio" name="Education" value="Assocciate"/>Assocciate Degree
+                   
+                   <input  type="radio" name="Education" value="High School" />High School
+                   </p>
+
+                  </div>
+                  
+              
+     
+                  <div>
+                  <p>
+                    <h3> <label>Applying for position:</label></h3>
+                   
+
+                    <select name="music" multiple="multiple" size="4" required class="seven" >
+
+                        <option value="Software Engineer" >Software Engineer</option>
+                        <option value="Senior Software Engineer" >Senior Software Engineer</option>
+                        <option value="Team Lead/Technical Lead" >Team Lead/Technical Lead</option>
+                        <option value="Project Manager/Project Lead" >Project Manager/Project Lead</option>
+                     </select>
+              </p>
+            </div>
+
+           
+                
+             
+                        <p> <h3><label for="Languages"> Programing Languages familiar with:</label></h3>
+                       
+                         <input type="checkbox" name="Skills" value="C" />C/C++
+                         <input type="checkbox" name="Skills" value="JS" />Java 
+                        <input type="checkbox"  name="Skills"  value="PHP" />PHP
+                        <input type="checkbox"  name="Skills"  value="Python" />Python
+                        <input type="checkbox"  name="Skills"  value="HTML"  /> HTML
+                    </p>
+
+                    <p><label for="Projects"><b>Tell us about your recent Projects:</b></label></p>
+                        <textarea name="projects" cols="80" rows="20" class="four">
+
+                        </textarea>
+                       
+                 </fieldset>
+                 
+                <p class="button"><b>Required:</b> <input type="submit" class="three"></p>
+
+            </form>
+ </body>
+ </html>
+
